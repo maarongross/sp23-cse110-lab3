@@ -6,13 +6,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div>
             <header>
-                <h1>How to Solve a 3x3 Rubik's Cube</h1>
-                <h2>A Step-by-step Tutorial</h2>
-                <h3>Made on April 16, 2023</h3>
+                <div class = "heading">
+                    <h1>How to Solve a 3x3 Rubik's Cube</h1>
+                    <h2>A Step-by-step Tutorial</h2>
+                    <h3>Made on April 16, 2023</h3>
+                </div>
             </header>
         </div>
         <div>
@@ -26,7 +29,7 @@
                     </ul>
                 </section>
                 <section>
-                    <h2>What Will be Covered Today</h2>
+                    <h2 class = "red_underline">What Will be Covered Today</h2>
                     <p>The main topic of today's meeting is the F2L step in the CFOP method to solving a 3x3 Rubik's Cube.</p>
                 </section>
                 <section>
@@ -44,7 +47,7 @@
                 <section>
                     <details>
                         <summary>Cubing ASMR</summary>
-                        <p>Below will be some audio of what your cube should sound like while doing algorithms. If your cube does not sound like this, you might not be using a cube.</p>
+                        <div class = "audio_example"><p>Below will be some audio of what your cube should sound like while doing algorithms. If your cube does not sound like this, you might not be using a cube.</p></div>
                         <audio controls>
                             <source src="rur'u'.mp3">
                         </audio>
@@ -53,7 +56,7 @@
                 <h2>New Topics for Today's Meeting</h2>
                 <ul>
                     <li>What makes <b>F2L</b> different from the beginner method</li>
-                    <li>The steps to <b>F2L</b>, which are as follows<ol>
+                    <li>The steps to <b>F2L</b>, which are as follows<ol class = "sublist">
                         <li><strong>Move pair</strong> to upper layer</li>
                         <li><strong>Solve</strong> case</li>
                         <li><strong>Insert</strong> to bottom layer</li>

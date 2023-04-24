@@ -1,0 +1,68 @@
+body {
+    background-color: beige;
+}
+
+.heading h1{
+    font-size: 32px;
+    text-align: center;
+    font: "coolFont";
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 0.5in;
+}
+
+h3 {
+    font-size: 1lh;
+}
+
+p {
+    font-size: 1cm;
+    color: navy;
+}
+
+@media (inverted-colors: inverted) {
+    p {
+      background: black;
+      color: orange;
+    }
+  }
+  
+  @media (inverted-colors: none) {
+    p {
+      background: white;
+      color: darkblue;
+    }
+  }
+
+.sublist li{
+    font-size: 1.3em;
+}
+
+.audio_example {
+    font-size: 1rem;
+    text-align: center;
+    width: 800px;
+}
+
+h2.red_underline {
+    text-decoration: underline red;
+}
+
+button:hover {
+    color: aqua;
+}
+
+button:active {
+    color: aqua;
+}
+
+@font-face {
+    font-family: "coolFont";
+    src: "BrunoAceSC-Regular.ttf";
+  }
+  
